@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import GRAB_BAG from '../../assets/grabbag.json';
-import { Run } from '../shared/models/run.model';
 import { GrabBagEntry } from '../shared/models/entry.model';
 
 @Component({

@@ -9,6 +9,10 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { HistoryComponent } from './history/history.component';
+import { PhotoAlbumComponent } from './photo-album/photo-album.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ProfileListComponent } from './profile-list/profile-list.component';
+import { SubmitComponent } from './submit/submit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { HistoryComponent } from './history/history.component';
     FilterPipe,
     NavBarComponent,
     HomeComponent,
-    HistoryComponent
+    HistoryComponent,
+    PhotoAlbumComponent,
+    ProfileComponent,
+    ProfileListComponent,
+    SubmitComponent
   ],
   imports: [BrowserModule, HttpClientModule, FormsModule, AppRoutingModule],
   providers: [],

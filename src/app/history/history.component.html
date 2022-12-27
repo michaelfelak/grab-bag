@@ -1,19 +1,23 @@
 <!-- search box filter -->
-<div class="content" role="main">
+<div class="content">
   <div class="card">
     <div class="form-group">
-      <label for="search-text">Search Text</label>
       <input
-        type="email"
-        class="form-control"
-        id="search-text"
-        aria-describedby="search-text"
-        [(ngModel)]="searchText"
-        placeholder="Enter text to search"
-        autofocus
+      type="email"
+      class="form-control"
+      id="search-text"
+      aria-describedby="search-text"
+      [(ngModel)]="searchText"
+      placeholder="Enter text to search"
+      autofocus
       />
+      <br>
+      <label for="search-text">Search by first/last name or year</label>
     </div>
-    <table style="align-content: center">
+    <br>
+    <br>
+
+    <table class="center">
       <tr style="font-weight: bolder">
         <td>Year</td>
         <td>Gifter</td>
